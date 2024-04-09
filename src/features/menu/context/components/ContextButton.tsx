@@ -28,7 +28,6 @@ const useStyles = createStyles((theme, params: { disabled?: boolean; readOnly?: 
     height: 'fit-content',
     width: '100%',
     backgroundColor: 'rgba(0,19,42,0.6)',
-    backdropFilter: 'blur(10px)',
     borderRadius:'2',
     
     padding: 10,
@@ -56,7 +55,6 @@ const useStyles = createStyles((theme, params: { disabled?: boolean; readOnly?: 
   dropdown: {
     padding: 10,
     backgroundColor: 'rgba(0,19,42,0.6)',
-    backdropFilter: 'blur(10px)',
     fontSize: 14,
     maxWidth: 256,
     width: 'fit-content',
